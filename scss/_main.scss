@@ -1,0 +1,17 @@
+main {
+	.imgbox {
+		width: 180px;
+		height: 158px;
+		border-radius: 80px;
+		box-shadow: 5px 5px 10px gray;
+		opacity: 0.7;
+		transition: all 1.5s;
+		&:hover {
+			width: 210px;
+			height: 158px;
+			opacity: 1;
+			border-radius: 30px;
+			transition: all 1.5s;
+		}
+	}
+}

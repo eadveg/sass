@@ -1,0 +1,76 @@
+body {
+  background-color: #7ee8fa;
+  background-image: url("../img/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header ul {
+  background-color: #ffffff00;
+  border-radius: 80px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+
+header a {
+  color: black;
+  background-color: #ffffff00;
+  border-radius: 80px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header a:hover {
+  background-color: white;
+  font-weight: bold;
+  font-size: 17px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+header .imglogo {
+  width: 35px;
+}
+
+header .no {
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+header .no:hover {
+  background-color: #ffffff00;
+}
+
+main .imgbox {
+  width: 180px;
+  height: 158px;
+  border-radius: 80px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  opacity: 0.7;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+main .imgbox:hover {
+  width: 210px;
+  height: 158px;
+  opacity: 1;
+  border-radius: 30px;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+footer {
+  background-color: #ffffff00;
+  border-radius: 80px;
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+}
+/*# sourceMappingURL=style.css.map */

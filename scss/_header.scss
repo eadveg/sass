@@ -1,0 +1,33 @@
+header {
+	ul {
+		background-color: $colorTransparente;
+		border-radius: 80px;
+		box-shadow: 5px 5px 10px gray;
+	}
+	a {
+		color: black;
+		background-color: $colorTransparente;
+		border-radius: 80px;
+		padding: 5px;
+		margin: 5px;
+		font-weight: bold;
+		transition: all 1s;
+		&:hover {
+			background-color: white;
+			font-weight: bold;
+			font-size: 17px;
+			transition: all 1s;
+		}
+	}
+	.imglogo {
+		width: 35px;
+	}
+	.no{
+		color: black;
+		padding: 5px;
+		margin: 5px;
+	&:hover {
+		background-color: $colorTransparente;
+	}
+	}
+}
